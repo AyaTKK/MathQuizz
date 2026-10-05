@@ -1,0 +1,11 @@
+interval-minutes: 30
+
+messages:
+  prefix: "&8[&6MathQuiz&8] &r"
+  question: "&eچه کسی اولین نفری است که پاسخ این سوال را می‌دهد؟ &b%question% = ?"
+  correct: "&aآفرین! &e%player% &aاولین نفری بود که پاسخ درست (&f%answer%&a) را داد و جایزه گرفت!"
+
+rewards:
+  - "give %player% diamond 5"
+  - "give %player% golden_apple 2"
+  - "xp add %player% 500 points"
